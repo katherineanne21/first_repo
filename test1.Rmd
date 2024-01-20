@@ -1,0 +1,17 @@
+---
+title: "practice1"
+output: html_document
+date: "`r Sys.Date()`"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+This is a test to see if I know how to use Rstudio and GitHub
+
+This is a test plot
+
+'''{r, test-plot}
+plot(cars)
+'''
